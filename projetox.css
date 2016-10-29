@@ -214,7 +214,7 @@ background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
     background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));
 }
 #room-settings .general-settings .option.enabled>button.on {
-    background: linear-gradient(hsla(40, 58%, 35%, 0.77), hsla(42, 61%, 18%, 0.95));
+    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));
 }
 .dropdown {
 background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
@@ -226,6 +226,176 @@ background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !
     -webkit-box-shadow: inset -39px 0 0 0 #c49840;
     -moz-box-shadow: inset -39px 0 0 0 #c49840;
     box-shadow: inset -39px 0 0 0 #c49840;
+}
+/* BG Avatar loja */
+.user-content .grid .cell .top {
+background: none !important;
+}
+.user-content .grid .cell, .user-content.communities .grid .cell {
+background: hsla(220, 0%, 5%, 0.3) !important;
+border-radius: 15px;
+}
+.user-content .grid .cell:hover > .top {
+    background: rgba(196, 152, 64, 0.3) !important;
+border-radius: 15px;
+}
+/* BG Avatar perfil*/
+#user-menu .avatar {
+    background: linear-gradient(to bottom,#c7993e 0,#58421e 56%,#332919 73%,#25211c 100%);
+}
+/* Status,Subscribe,Notificaçoes menu */
+.subscribe-button {
+background: hsla(220, 0%, 5%, 0.1) !important;
+}
+.subscribe-button:hover {
+    background: rgba(196, 152, 64, 0.3) !important;
+}
+.user-content.profile .meta .blurb .box, .user-content.profile .meta .blurb input {
+background: hsla(220, 0%, 5%, 0.3) !important;
+}
+.experience .xp .bar {
+    background: hsla(220, 0%, 5%, 0.7) !important;
+}
+.user-content.profile .notifications .row {
+    background: hsla(220, 0%, 5%, 0.70);
+}
+/* Menu emblemas */
+.user-content .grid .cell:hover {
+    background: rgba(204, 145, 25, 0.3) !important;
+}
+#user-inventory .badges .grid .cell.selected {
+    background: rgba(204, 145, 25, 0.5);
+    -webkit-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
+    -moz-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
+    box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
+}
+/* Avatar selecionado */
+#user-inventory .avatars .grid .cell.selected {
+    background: rgba(204, 145, 25, 0.5);
+    -webkit-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
+    -moz-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
+    box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
+}
+
+/* Barra de xp (BG) */
+#footer-user .info .meta div.bar {
+    background: hsla(220, 0%, 12%, 0.6);
+}
+/* Botoes editar playlist */
+#playlist-edit-button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-edit-button:hover {
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+}
+#playlist-shuffle-button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-shuffle-button:hover {
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+}
+#playlist-delete-button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-delete-button:hover {
+    background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64));
+}
+/* Playlist tocando */
+.media-list .row.now-playing {
+    background: rgba(204, 145, 25, 0.5)!important;
+    border-bottom: #000000 2px solid!important;
+}
+/* Botoes importar, Criar playlist */
+#playlist-import {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-import:hover {
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+}
+#playlist-create {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-create:hover {
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+}
+/* Botoes importar */
+#playlist-import-panel .button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-import-panel .button:hover {
+    background: linear-gradient(hsla(350, 78%, 29%, 0.98), hsla(350, 78%, 42%, 0.68));
+}
+/* Botoes menu de amigos */
+#user-friends .list .row .buttons button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#user-friends .list .row .buttons button.positive:hover {
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+}
+/* Botoes menu de amigos */
+#user-friends .list .row .buttons button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#user-friends .list .row .buttons button.positive:hover {
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+}
+#user-friends .list .row .buttons button.negative:hover {
+    background: linear-gradient(hsla(0, 79%, 50%, 0.78), hsla(0, 79%, 37%, 0.91));
+}
+/* Menu níveis */
+.experience .levels .level .label {
+    background: linear-gradient(hsla(0, 14%, 11%, 0.78), hsla(0, 9%, 7%, 0.99));
+}
+.experience .levels .level {
+    background: linear-gradient(hsla(0, 12%, 24%, 0.72), hsla(255, 9%, 5%, 0.58));
+}
+.experience .levels .level.mystery .label {
+    background: linear-gradient(hsla(40, 68%, 24%, 0.92), hsla(40, 78%, 15%, 0.91));
+}
+/* Borda icone avatar */
+#user-rollover.role-host .thumb {
+ border-color: #db182e !important;
+}
+#user-rollover.role-cohost .thumb {
+ border-color: #ff1e37 !important;
+}
+#user-rollover.role-manager .thumb {
+ border-color: #ef5636 !important;
+}
+#user-rollover.role-bouncer .thumb {
+ border-color: #05abe4 !important;
+}
+#user-rollover.role-dj .thumb {
+ border-color: #7936e8 !important;
+}
+#user-rollover.role-user .thumb {
+ border-color: #cc3442 !important;
+}
+/* Tooltip BG */
+#tooltip span {
+background: rgba(204, 145, 25, 0.6) !important;
+}
+ #tooltip.right .corner {
+    border-top: 10px solid transparent !important;
+    border-right: 10px solid transparent !important;
+}
+#tooltip .corner {
+    border-top: 10px solid transparent !important;
+    border-left: 10px solid transparent !important;
+}
+#toast-notifications .notification .right {
+background: rgba(77, 54, 10, 0.6) !important;
+}
+#toast-notifications .notification .left {
+background: rgba(77, 54, 10, 0.9) !important;
+}
+#rcs-loader-progress {
+background-color: rgba(77, 54, 10, 0.9) !important;
+border: 3px solid rgba(77, 54, 10, 0.9) !important;
+}
+/* BG Chat sugestão */
+#chat-suggestion {
+background: rgba(2, 1, 1, 0.9);
 }
 #footer {
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
