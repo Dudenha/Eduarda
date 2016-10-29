@@ -318,21 +318,7 @@ div.level.earned.ep .label {
 #waitlist .list .user {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,hsla(40, 59%, 51%, 0.62) 100%) !important;
 }
-
-
-.app-right .friends {
-    background: none !important;
-}
-
-#chat .mention .msg {
-    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(44, 124, 41, 0.27) 100%);
-}
-#chat .mention {
-    font-weight: 700;
-    /*padding-left: 25px;*/
-    border-left: #7681FF 3px solid;
-}
-
+/* Fonte */
 #chat-messages .emote .icon {
     /*left: 4px;*/
 }
@@ -364,6 +350,14 @@ div.level.earned.ep .label {
     color: #eee;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
+}
+
+.app-right .friends {
+    background: none !important;
+}
+
+#chat .mention .msg {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(44, 124, 41, 0.27) 100%);
 }
 
 #playlist-panel {
