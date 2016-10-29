@@ -743,3 +743,11 @@ background: #aa74ff;
 #meh .bottom, #meh.selected {
 background: #c42e3b;
 }
+/* Listas menu transparencia */
+#user-friends .list .row {
+    background: rgba(17, 16, 8, 0.44);
+}
+/* Loja de extra bg */
+#user-store .misc .grid .cell .title-bar {
+background: none;
+}
