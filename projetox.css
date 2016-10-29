@@ -358,7 +358,7 @@ div.level.earned.ep .label {
 }
 
 #chat .mention .msg {
-    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(44, 124, 41, 0.27) 100%);
+    background: linear-gradient(to right,rgba(94, 73, 34, 0.12) 0,rgba(197, 152, 64, 0.45) 100%);
 }
 
 #playlist-panel {
