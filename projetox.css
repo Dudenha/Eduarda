@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 /* CORES CHAT */
 /* HOST */
 #user-lists .group.host {
@@ -326,7 +327,6 @@ div.level.earned.ep .label {
 #chat .mention .msg {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(44, 124, 41, 0.27) 100%);
 }
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 #chat .mention {
     font-weight: 700;
     /*padding-left: 25px;*/
