@@ -289,19 +289,19 @@ background: hsla(220, 0%, 5%, 0.3) !important;
     background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
 }
 #playlist-edit-button:hover {
-    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91)) !important;
 }
 #playlist-shuffle-button {
     background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
 }
 #playlist-shuffle-button:hover {
-    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6)) !important;
 }
 #playlist-delete-button {
     background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
 }
 #playlist-delete-button:hover {
-    background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64));
+    background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64)) !important;
 }
 /* Playlist tocando */
 .media-list .row.now-playing {
