@@ -788,3 +788,10 @@ i.icon.icon-room {
     height: 0px;
     background-size: 65%;
 }
+/* Barra de pedidos de amizade */
+.app-right .friends .header {
+    background: linear-gradient(rgba(43, 45, 48, 0.780392), rgba(12, 12, 13, 0.909804)) !important;
+}
+.app-right .friends .header:hover {
+ background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95)) !important;
+}
