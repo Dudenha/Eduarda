@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
-/* Correção BG */
+/* Correção BG 
 .room-background {
     left: -244px !important;
-}
+} */
 /* CORES CHAT */
 /* HOST */
 #user-lists .group.host {
