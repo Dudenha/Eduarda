@@ -485,20 +485,6 @@ background: rgba(2, 1, 1, 0.9);
 -moz-transition: all 2s ease;
 -o-transition: all 2s ease;
 }
-#room-bar .icon-room {
-	-webkit-transition: all 2s ease;
-        -moz-transition: all 2s ease;
-        -o-transition: all 2s ease;
-}
-#room-bar .icon-room:hover {
-         transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-webkit-transition: all .9s ease;
-	-moz-transition: all .9s ease;
-	-o-transition: all .9s ease;
-}
 #footer-user .buttons .button.settings:hover .icon:hover {
 	 transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
@@ -770,4 +756,24 @@ background: none;
 /* Cor numero afk waitlist */
 .afkTime {
     color: #fff !important;
+}
+/* LOGO Projeto X */
+#room-host, #room-name {
+left: 105px;
+}
+
+#room-bar .icon-room {
+    top: 8px;
+    left: 10px;
+}
+i.icon.icon-room {
+    width: 130px;
+    height: 50px;
+}
+
+.icon-room {
+    background: url(http://i.imgur.com/aJkcb2e.png) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 65%;
 }
