@@ -196,7 +196,10 @@ div.level.earned.ep .label {
    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
-
+.app-right .friends .list-header .input-background.focused {
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
+}
 #user-lists .list-header .input-background.focused {
    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
@@ -826,4 +829,97 @@ i.icon.icon-room {
 }
 .app-right .friends .header:hover {
  background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95)) !important;
+}
+/* BG Barra de pesquisa */
+#search {
+    background: rgba(29, 22, 18, 0.5);
+}
+/* Preview Video */
+#dialog-preview .dialog-frame .button.submit {
+border-radius: 7px;
+background: rgba(0, 0, 0, 0.7);
+}
+.dialog {
+border-radius: 7px;
+background: rgba(0, 0, 0, 0.7);
+}
+#dialog-preview .dialog-frame .button.submit:hover {
+border-radius: 7px;
+background: rgba(196, 152, 64, 0.46);
+}
+/* Menu de Grab */
+.pop-menu .bar {
+ background: rgba(196, 152, 64, 0.63);
+}
+.pop-menu li{
+ background: rgba(0, 0, 0, 0.4);
+}
+.pop-menu li:hover{
+ background: rgba(196, 152, 64, 0.46);
+}
+/* Borda arredondada */
+#user-menu .item {
+  border-radius: 10px;
+}
+#user-menu .avatar {
+  border-radius: 10px;
+}
+.experience .xp .bar .progress {
+  border-radius: 10px;
+}
+.user-content.profile .notifications .row {
+ border-radius: 10px;
+}
+.dropdown dt {
+ border-radius: 10px;
+}
+.dropdown {
+ border-radius: 10px;
+}
+#user-friends .list .row .buttons button {
+ border-radius: 5px;
+}
+#user-friends .search {
+ border-radius: 10px;
+}
+#dashboard .search {
+ border-radius: 10px;
+}
+.communities .grid .cell {
+ border-radius: 15px;
+}
+.communities .grid .cell .favorite {
+ border-radius: 3px;
+}
+.communities .grid .cell .meta .join {
+ border-radius: 10px;
+ border: 1px solid rgba(196, 152, 64, 0.63);
+ background: #000000;
+}
+.communities .grid .cell .meta .join:hover {
+ background: rgba(196, 152, 64, 0.63);
+}
+#footer-user .info .bar .progress {
+ border-radius: 5px;
+}
+#footer-user .info .meta div.bar {
+ border-radius: 5px;
+}
+#user-lists .list-header .input-background {
+ border-radius: 5px;
+}
+#search-bar {
+ border-radius: 10px;
+}
+#filter-bar {
+ border-radius: 10px;
+}
+#playlist-button {
+border-radius: 7px;
+}
+.app-right .friends .list-header .input-background {
+border-radius: 7px;
+}
+#rcs-menu .search {
+border-radius: 7px;
 }
