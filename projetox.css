@@ -107,7 +107,7 @@ div.level.earned.ep .label {
 }
 /*Menu dashboard*/
 .tab-menu button.selected {
-    background: rgba(204, 155, 56, 1);
+    background: rgba(150, 111, 36, 0.70);
 }
 
 .tab-menu button {
@@ -181,33 +181,33 @@ div.level.earned.ep .label {
 /* Bordas caixas de dialogo procurar */ 
 
 #chat-input.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
 .search.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
 }
 #search-bar.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
 #filter-bar.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
 
 #user-lists .list-header .input-background.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
 .dialog-input-background.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
 .youtube-input.focused {
-   -webkit-box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
-   box-shadow: inset 0 0 0 1px rgba(204, 155, 56, 1) !important;
+   -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+   box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
 }
 /* barrinha lateral mouse */
 ::-webkit-scrollbar-thumb {
@@ -464,7 +464,7 @@ background: rgba(2, 1, 1, 0.9);
     background: none;
 }
 .media-list .row.selected {
-    background: rgba(204, 155, 56, 1) !important;
+    background: rgba(150, 111, 36, 0.70) !important;
 }
 #footer .bar-button .section .chevron:after {
     background :#c59840;
@@ -578,7 +578,7 @@ background: rgba(2, 1, 1, 0.9);
 }
 
 #user-lists .list .user:hover {
-    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(204, 155, 56, 1) 100%) !important;
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(150, 111, 36, 0.70) 100%) !important;
 }
     
 #user-lists .list.staff .group {
