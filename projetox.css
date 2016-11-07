@@ -498,21 +498,17 @@ background: rgba(2, 1, 1, 0.9);
     opacity: 1;
     transition: all 0.1s;
 }
-#history-button .icon,
-#footer-user .buttons .button.settings .icon
-{
+#history-button i.icon.icon-history-white { 
         -moz-transition:        transform 1s ease-in-out;
         -webkit-transition:     transform 1s ease-in-out;
         -o-transition:          transform 1s ease-in-out;
         transition:             transform 1s ease-in-out;
 }
 
-#history-button .icon:hover,
-#footer-user .buttons .button.settings .icon:hover
-{
+#history-button i.icon.icon-history-white:hover {
         -moz-transform:         rotate(360deg) !important;
         -webkit-transform:      rotate(360deg) !important;
-        -o-transform            rotate(360deg) !important;
+        -o-transform:           rotate(360deg) !important;
         transform:              rotate(360deg) !important;
 }
 #volume .button i {
