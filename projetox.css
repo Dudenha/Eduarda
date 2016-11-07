@@ -114,6 +114,12 @@ div.level.earned.ep .label {
 .action.rcs-qinfo {
     box-shadow: hsla(40, 53%, 51%, 0.65) 1px 1px 0px 0px inset !important;
 }
+#user-rollover .meta {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
 /*Menu dashboard*/
 .tab-menu button.selected {
     background: rgba(150, 111, 36, 0.70);
