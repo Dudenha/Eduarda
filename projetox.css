@@ -20,16 +20,16 @@
 }
 /* COORDENADOR */
 #user-lists .group.manager {
-	color: #1bb173;
+	color: #1BB173;
 }
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-	color: #1bb173 !important;
+	color: #1BB173 !important;
 }
 .icon-chat-manager + span,
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-	color: #1bb173 !important;
+	color: #1BB173 !important;
 }
 /* SEGURANÇA */
 #user-lists .group.bouncer {
@@ -42,12 +42,12 @@
 }
 /* DJ RESIDENT */
 #user-lists .group.dj {
-	color: #2a6898;
+	color: #2A6898;
 }
 .icon-chat-dj + span,
 #user-lists .group.dj ~ .user span,
 #dialog-user-role .role-menu .menu ul .dj span {
-	color: #2a6898 !important;
+	color: #2A6898 !important;
 }
 /* BG Leveis */
 div.level.earned.ep .label {
